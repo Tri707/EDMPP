@@ -1,0 +1,188 @@
+[2025-03-21 11:11:47] Form submitted via POST
+[2025-03-21 11:11:47] Database connection included successfully
+[2025-03-21 11:11:47] Account type: customer
+[2025-03-21 11:11:47] No validation errors, proceeding with database insertion
+[2025-03-21 11:11:47] Account type: customer
+[2025-03-21 11:11:47] Username: aaa
+[2025-03-21 11:11:47] Email: tri@gh.com
+[2025-03-21 11:11:47] User ID created: 46
+[2025-03-21 11:11:47] Customers table doesn't exist in database
+[2025-03-21 11:11:47] Registration successful for user: aaa
+[2025-03-21 11:13:36] Form submitted via POST
+[2025-03-21 11:13:36] Database connection included successfully
+[2025-03-21 11:13:36] Account type: customer
+[2025-03-21 11:13:36] No validation errors, proceeding with database insertion
+[2025-03-21 11:13:36] Account type: customer
+[2025-03-21 11:13:36] Username: aaa
+[2025-03-21 11:13:36] Email: tri@gh.com
+[2025-03-21 11:13:36] User ID created: 47
+[2025-03-21 11:13:36] Customers table doesn't exist in database
+[2025-03-21 11:13:36] Registration successful for user: aaa
+[2025-03-21 11:14:55] Form submitted via POST
+[2025-03-21 11:14:55] Database connection included successfully
+[2025-03-21 11:14:55] Account type: customer
+[2025-03-21 11:14:55] No validation errors, proceeding with database insertion
+[2025-03-21 11:14:55] Account type: customer
+[2025-03-21 11:14:55] Username: aaa
+[2025-03-21 11:14:55] Email: tri@gh.com
+[2025-03-21 11:14:55] User ID created: 48
+[2025-03-21 11:14:55] Customers table doesn't exist in database
+[2025-03-21 11:14:55] Registration successful for user: aaa
+[2025-03-21 11:16:55] Form submitted via POST
+[2025-03-21 11:16:55] Database connection included successfully
+[2025-03-21 11:16:55] Account type: customer
+[2025-03-21 11:16:55] No validation errors, proceeding with database insertion
+[2025-03-21 11:16:55] Account type: customer
+[2025-03-21 11:16:55] Username: aaa
+[2025-03-21 11:16:55] Email: tri@gh.com
+[2025-03-21 11:16:55] User ID created: 49
+[2025-03-21 11:16:55] Customers table doesn't exist in database
+[2025-03-21 11:16:55] Registration successful for user: aaa
+[2025-03-21 11:19:06] Form submitted via POST
+[2025-03-21 11:19:06] Database connection included successfully
+[2025-03-21 11:19:07] Account type: customer
+[2025-03-21 11:19:07] No validation errors, proceeding with database insertion
+[2025-03-21 11:19:07] Account type: customer
+[2025-03-21 11:19:07] Username: aaa
+[2025-03-21 11:19:07] Email: tri@gh.com
+[2025-03-21 11:19:07] User ID created: 50
+[2025-03-21 11:19:07] Customers table doesn't exist in database
+[2025-03-21 11:19:07] Registration successful for user: aaa
+[2025-03-21 11:25:18] Form submitted via POST
+[2025-03-21 11:25:18] Database connection included successfully
+[2025-03-21 11:25:18] Account type: customer
+[2025-03-21 11:25:18] No validation errors, proceeding with database insertion
+[2025-03-21 11:25:19] Account type: customer
+[2025-03-21 11:25:19] Username: aaa
+[2025-03-21 11:25:19] Email: tri@gh.com
+[2025-03-21 11:25:19] User ID created: 51
+[2025-03-21 11:25:19] Customers table doesn't exist in database
+[2025-03-21 11:25:19] Registration successful for user: aaa
+[2025-03-21 11:28:49] Form submitted via POST
+[2025-03-21 11:28:49] Database connection included successfully
+[2025-03-21 11:28:49] Account type: customer
+[2025-03-21 11:28:49] No validation errors, proceeding with database insertion
+[2025-03-21 11:28:49] Account type: customer
+[2025-03-21 11:28:49] Username: aaa
+[2025-03-21 11:28:49] Email: tri@gh.com
+[2025-03-21 11:28:49] User ID created: 52
+[2025-03-21 11:28:49] Customers table doesn't exist in database
+[2025-03-21 11:28:49] Registration successful for user: aaa
+[2025-03-21 11:29:25] Form submitted via POST
+[2025-03-21 11:29:25] Database connection included successfully
+[2025-03-21 11:29:25] Account type: provider
+[2025-03-21 11:29:25] No validation errors, proceeding with database insertion
+[2025-03-21 11:29:25] Account type: provider
+[2025-03-21 11:29:25] Username: sss
+[2025-03-21 11:29:25] Email: rak@gm.com
+[2025-03-21 11:29:25] User ID created: 53
+[2025-03-21 11:29:25] Registration successful for user: sss
+[2025-03-23 01:05:10] Form submitted via POST
+[2025-03-23 01:05:10] Database connection included successfully
+[2025-03-23 01:05:10] Account type: provider
+[2025-03-23 01:05:10] No validation errors, proceeding with database insertion
+[2025-03-23 01:05:10] Account type: provider
+[2025-03-23 01:05:10] Username: jjj
+[2025-03-23 01:05:10] Email: jjj@gh.com
+[2025-03-23 01:05:10] User ID created: 54
+[2025-03-23 01:05:10] Registration successful for user: jjj
+[2025-03-24 12:13:53] Form submitted via POST
+[2025-03-24 12:13:53] Database connection included successfully
+[2025-03-24 12:13:53] Account type: customer
+[2025-03-24 12:13:53] No validation errors, proceeding with database insertion
+[2025-03-24 12:13:53] Account type: customer
+[2025-03-24 12:13:53] Username: ooo
+[2025-03-24 12:13:53] Email: oo@gh.com
+[2025-03-24 12:13:53] User ID created: 55
+[2025-03-24 12:13:53] Customers table doesn't exist in database
+[2025-03-24 12:13:53] Registration successful for user: ooo
+[2025-03-24 12:15:11] Form submitted via POST
+[2025-03-24 12:15:11] Database connection included successfully
+[2025-03-24 12:15:11] Account type: provider
+[2025-03-24 12:15:11] No validation errors, proceeding with database insertion
+[2025-03-24 12:15:11] Account type: provider
+[2025-03-24 12:15:11] Username: uuu
+[2025-03-24 12:15:11] Email: uu@gh.com
+[2025-03-24 12:15:11] User ID created: 56
+[2025-03-24 12:15:11] Registration successful for user: uuu
+[2025-03-25 23:04:58] Form submitted via POST
+[2025-03-25 23:04:58] Database connection included successfully
+[2025-03-25 23:04:58] Account type: customer
+[2025-03-25 23:04:58] Validation errors: Username must be at least 3 characters long, Phone number should be 6-15 digits
+[2025-03-25 23:05:08] Form submitted via POST
+[2025-03-25 23:05:08] Database connection included successfully
+[2025-03-25 23:05:08] Account type: customer
+[2025-03-25 23:05:08] Validation errors: Username must be at least 3 characters long
+[2025-03-25 23:05:22] Form submitted via POST
+[2025-03-25 23:05:22] Database connection included successfully
+[2025-03-25 23:05:22] Account type: customer
+[2025-03-25 23:05:22] No validation errors, proceeding with database insertion
+[2025-03-25 23:05:22] Account type: customer
+[2025-03-25 23:05:22] Username: aaa
+[2025-03-25 23:05:22] Email: tri@gh.com
+[2025-03-25 23:05:22] User ID created: 57
+[2025-03-25 23:05:22] Customers table doesn't exist in database
+[2025-03-25 23:05:22] Registration successful for user: aaa
+[2025-03-26 01:33:17] Form submitted via POST
+[2025-03-26 01:33:17] Database connection included successfully
+[2025-03-26 01:33:17] Account type: customer
+[2025-03-26 01:33:17] Validation errors: Phone number should be 6-15 digits
+[2025-03-26 01:33:29] Form submitted via POST
+[2025-03-26 01:33:29] Database connection included successfully
+[2025-03-26 01:33:29] Account type: customer
+[2025-03-26 01:33:29] No validation errors, proceeding with database insertion
+[2025-03-26 01:33:29] Account type: customer
+[2025-03-26 01:33:29] Username: aaa
+[2025-03-26 01:33:29] Email: tri@gh.com
+[2025-03-26 01:33:29] User ID created: 58
+[2025-03-26 01:33:29] Customers table doesn't exist in database
+[2025-03-26 01:33:29] Registration successful for user: aaa
+[2025-03-26 01:46:34] Form submitted via POST
+[2025-03-26 01:46:34] Database connection included successfully
+[2025-03-26 01:46:34] Account type: customer
+[2025-03-26 01:46:34] No validation errors, proceeding with database insertion
+[2025-03-26 01:46:34] Account type: customer
+[2025-03-26 01:46:34] Username: aaa
+[2025-03-26 01:46:34] Email: tri@gh.com
+[2025-03-26 01:46:34] User ID created: 61
+[2025-03-26 01:46:34] Customers table doesn't exist in database
+[2025-03-26 01:46:34] Registration successful for user: aaa
+[2025-03-26 01:50:39] Form submitted via POST
+[2025-03-26 01:50:39] Database connection included successfully
+[2025-03-26 01:50:39] Account type: customer
+[2025-03-26 01:50:39] No validation errors, proceeding with database insertion
+[2025-03-26 01:50:39] Account type: customer
+[2025-03-26 01:50:39] Username: www
+[2025-03-26 01:50:39] Email: turke100200@gmail.com
+[2025-03-26 01:50:39] User ID created: 62
+[2025-03-26 01:50:39] Customers table doesn't exist in database
+[2025-03-26 01:50:39] Registration successful for user: www
+[2025-03-26 01:55:47] Form submitted via POST
+[2025-03-26 01:55:47] Database connection included successfully
+[2025-03-26 01:55:47] Account type: provider
+[2025-03-26 01:55:47] No validation errors, proceeding with database insertion
+[2025-03-26 01:55:47] Account type: provider
+[2025-03-26 01:55:47] Username: sss
+[2025-03-26 01:55:47] Email: s@ss.com
+[2025-03-26 01:55:47] User ID created: 63
+[2025-03-26 01:55:47] Registration successful for user: sss
+[2025-03-28 05:40:53] Form submitted via POST
+[2025-03-28 05:40:53] Database connection included successfully
+[2025-03-28 05:40:53] Account type: customer
+[2025-03-28 05:40:53] No validation errors, proceeding with database insertion
+[2025-03-28 05:40:53] Account type: customer
+[2025-03-28 05:40:53] Username: ffgg
+[2025-03-28 05:40:53] Email: ffgg@gh.com
+[2025-03-28 05:40:53] User ID created: 66
+[2025-03-28 05:40:53] Customers table doesn't exist in database
+[2025-03-28 05:40:53] Registration successful for user: ffgg
+[2025-04-03 18:03:39] Form submitted via POST
+[2025-04-03 18:03:39] Database connection included successfully
+[2025-04-03 18:03:39] Account type: customer
+[2025-04-03 18:03:39] No validation errors, proceeding with database insertion
+[2025-04-03 18:03:39] Account type: customer
+[2025-04-03 18:03:39] Username: admin
+[2025-04-03 18:03:39] Email: admin@ad.com
+[2025-04-03 18:03:39] User ID created: 68
+[2025-04-03 18:03:39] Customers table doesn't exist in database
+[2025-04-03 18:03:39] Registration successful for user: admin

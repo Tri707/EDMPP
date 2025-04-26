@@ -1,0 +1,385 @@
+/* FixItNow - Main Stylesheet */
+
+/* ===== VARIABLES ===== */
+:root {
+    /* Colors */
+    --primary: #1d5bc2;
+    --primary-dark: #134193;
+    --primary-light: #4e7ed1;
+    --primary-bg: #ecf2ff;
+    --secondary: #6c757d;
+    --success: #28a745;
+    --danger: #dc3545;
+    --warning: #ffc107;
+    --info: #17a2b8;
+    --light: #f8f9fa;
+    --dark: #343a40;
+    --white: #ffffff;
+    --gray-100: #f8f9fa;
+    --gray-200: #e9ecef;
+    --gray-300: #dee2e6;
+    --gray-400: #ced4da;
+    --gray-500: #adb5bd;
+    --gray-600: #6c757d;
+    --gray-700: #495057;
+    --gray-800: #343a40;
+    --gray-900: #212529;
+    
+    /* Typography */
+    --font-family-base: 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+    --font-family-heading: 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+    
+    /* Spacing */
+    --spacer: 1rem;
+    
+    /* Shadows */
+    --shadow-sm: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+    --shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+    --shadow-lg: 0 1rem 3rem rgba(0, 0, 0, 0.15);
+    
+    /* Border Radius */
+    --border-radius-sm: 0.25rem;
+    --border-radius: 0.5rem;
+    --border-radius-lg: 1rem;
+    --border-radius-xl: 2rem;
+    
+    /* Transitions */
+    --transition-base: all 0.2s ease-in-out;
+}
+
+/* ===== GENERAL STYLES ===== */
+body {
+    font-family: var(--font-family-base);
+    color: var(--gray-800);
+    line-height: 1.6;
+    background-color: var(--gray-100);
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    font-family: var(--font-family-heading);
+    font-weight: 600;
+    line-height: 1.3;
+    color: var(--gray-900);
+}
+
+a {
+    color: var(--primary);
+    text-decoration: none;
+    transition: var(--transition-base);
+}
+
+a:hover {
+    color: var(--primary-dark);
+}
+
+.btn {
+    font-weight: 500;
+    transition: var(--transition-base);
+}
+
+.btn-primary {
+    background-color: var(--primary);
+    border-color: var(--primary);
+}
+
+.btn-primary:hover, .btn-primary:focus {
+    background-color: var(--primary-dark);
+    border-color: var(--primary-dark);
+}
+
+.btn-outline-primary {
+    color: var(--primary);
+    border-color: var(--primary);
+}
+
+.btn-outline-primary:hover, .btn-outline-primary:focus {
+    background-color: var(--primary);
+    border-color: var(--primary);
+}
+
+.section-title {
+    position: relative;
+    margin-bottom: 1rem;
+    font-weight: 700;
+}
+
+.bg-primary-subtle {
+    background-color: rgba(29, 91, 194, 0.1);
+}
+
+.text-primary {
+    color: var(--primary) !important;
+}
+
+/* ===== NAVBAR ===== */
+.navbar {
+    box-shadow: var(--shadow);
+}
+
+.navbar-brand {
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.nav-link {
+    font-weight: 500;
+    padding: 0.5rem 1rem;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255, 255, 255, 0.85);
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: rgba(255, 255, 255, 1);
+}
+
+.navbar-dark .navbar-nav .active > .nav-link,
+.navbar-dark .navbar-nav .nav-link.active {
+    font-weight: 600;
+    color: #ffffff;
+}
+
+/* ===== HERO SECTION ===== */
+.hero-section {
+    background-color: var(--primary);
+    background-image: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
+    padding: 5rem 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.hero-section::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: url('../img/pattern.png');
+    background-size: cover;
+    opacity: 0.05;
+    z-index: 0;
+}
+
+.hero-section .container {
+    position: relative;
+    z-index: 1;
+}
+
+.repair-quote-card {
+    border-radius: var(--border-radius);
+    background-color: var(--white);
+}
+
+/* ===== SERVICES SECTION ===== */
+.service-card {
+    transition: var(--transition-base);
+    border-radius: var(--border-radius);
+    overflow: hidden;
+}
+
+.service-card:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--shadow-lg);
+}
+
+.service-icon {
+    color: var(--primary);
+    margin-bottom: 1.25rem;
+}
+
+/* ===== PROCESS SECTION ===== */
+.process-card {
+    border-radius: var(--border-radius);
+    transition: var(--transition-base);
+}
+
+.process-card:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--shadow);
+}
+
+.process-icon .badge {
+    width: 50px;
+    height: 50px;
+    line-height: 40px;
+    font-size: 1.5rem;
+}
+
+/* ===== TECHNICIAN CARDS ===== */
+.technician-card {
+    border-radius: var(--border-radius);
+    transition: var(--transition-base);
+}
+
+.technician-card:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--shadow-lg);
+}
+
+.technician-avatar img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border: 3px solid var(--white);
+    box-shadow: var(--shadow-sm);
+}
+
+.rating .fas, .rating .far, .rating .fa-star-half-alt {
+    color: var(--warning);
+}
+
+/* ===== MARKETPLACE PAGE ===== */
+.marketplace-filters .form-select,
+.marketplace-filters .form-control {
+    font-size: 0.875rem;
+}
+
+.no-results {
+    padding: 3rem 0;
+}
+
+.specialties .badge {
+    padding: 0.25rem 0.5rem;
+    font-weight: 500;
+}
+
+/* ===== LOGIN/SIGNUP PAGES ===== */
+.auth-form-container {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.password-strength {
+    height: 25px;
+}
+
+.password-strength .progress {
+    margin-top: 5px;
+}
+
+/* ===== FOOTER ===== */
+footer {
+    background-color: var(--gray-900);
+    color: white;
+}
+
+.footer-links a {
+    color: var(--white);
+    opacity: 0.8;
+    transition: var(--transition-base);
+}
+
+.footer-links a:hover {
+    opacity: 1;
+    text-decoration: underline;
+}
+
+.social-links a {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.1);
+    transition: var(--transition-base);
+}
+
+.social-links a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    transform: translateY(-3px);
+}
+
+/* ===== MEDIA QUERIES ===== */
+@media (max-width: 767.98px) {
+    .hero-section {
+        padding: 3rem 0;
+    }
+    
+    .technician-card .d-flex {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .technician-avatar {
+        margin-bottom: 1rem;
+    }
+    
+    .technician-avatar img {
+        width: 70px;
+        height: 70px;
+    }
+}
+
+@media (min-width: 992px) {
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: 1rem;
+        padding-left: 1rem;
+    }
+}
+
+/* ===== ANIMATIONS ===== */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.fade-in {
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+@keyframes slideUp {
+    from {
+        transform: translateY(30px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.slide-up {
+    animation: slideUp 0.5s ease-in-out;
+}
+
+/* ===== UTILITY CLASSES ===== */
+.border-dashed {
+    border-style: dashed !important;
+}
+
+.bg-light-primary {
+    background-color: var(--primary-bg);
+}
+
+.text-truncate-2 {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.w-40 {
+    width: 40% !important;
+}
+
+.w-60 {
+    width: 60% !important;
+}
+
+.hover-grow {
+    transition: transform 0.3s ease;
+}
+
+.hover-grow:hover {
+    transform: scale(1.03);
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}

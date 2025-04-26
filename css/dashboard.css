@@ -1,0 +1,353 @@
+/* Dashboard Styles for FixItNow */
+
+/* Layout */
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+}
+
+/* Sidebar Styles */
+.sidebar {
+    width: 280px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    z-index: 1000;
+    background-color: white;
+    overflow-y: auto;
+    transition: all 0.3s;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.05);
+}
+
+.sidebar-header {
+    padding: 1.5rem;
+    border-bottom: 1px solid rgba(0,0,0,0.05);
+}
+
+.sidebar-link {
+    display: flex;
+    align-items: center;
+    padding: 0.75rem 1.5rem;
+    color: var(--gray-700);
+    text-decoration: none;
+    transition: all 0.2s;
+    border-radius: 0.5rem;
+    margin: 0.25rem 0.75rem;
+}
+
+.sidebar-link:hover {
+    background-color: #f8f9fa;
+    color: var(--primary);
+}
+
+.sidebar-link i {
+    min-width: 24px;
+    margin-right: 0.75rem;
+}
+
+.sidebar-link.active {
+    background-color: var(--primary-bg);
+    color: var(--primary);
+    font-weight: 600;
+}
+
+.sidebar-footer {
+    padding: 1rem 1.5rem;
+    border-top: 1px solid rgba(0,0,0,0.05);
+    position: sticky;
+    bottom: 0;
+    background-color: white;
+}
+
+.main-content {
+    margin-left: 280px;
+    transition: all 0.3s;
+}
+
+/* Toggle Button for Mobile */
+#sidebarCollapse {
+    display: none;
+}
+
+/* Dashboard Cards */
+.dashboard-card {
+    border-radius: 0.75rem;
+    overflow: hidden;
+    border: none;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+    transition: transform 0.2s, box-shadow 0.2s;
+    height: 100%;
+}
+
+.dashboard-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+}
+
+.dashboard-card .card-header {
+    border-bottom: 1px solid rgba(0,0,0,0.05);
+    padding: 1rem 1.25rem;
+    font-weight: 600;
+    background-color: transparent;
+}
+
+/* Stats Cards */
+.stat-card {
+    padding: 1.5rem;
+    border-radius: 0.75rem;
+    border: none;
+    transition: transform 0.2s;
+}
+
+.stat-card:hover {
+    transform: translateY(-5px);
+}
+
+.stat-icon {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    font-size: 1.5rem;
+}
+
+/* Booking Cards */
+.booking-card {
+    border-left: 5px solid transparent;
+    transition: all 0.2s;
+}
+
+.booking-card:hover {
+    background-color: #f8f9fa;
+}
+
+.booking-card.status-pending {
+    border-left-color: var(--warning);
+}
+
+.booking-card.status-confirmed {
+    border-left-color: var(--info);
+}
+
+.booking-card.status-completed {
+    border-left-color: var(--success);
+}
+
+.booking-card.status-cancelled {
+    border-left-color: var(--danger);
+}
+
+/* Status Badges */
+.status-badge {
+    padding: 0.35rem 0.65rem;
+    border-radius: 2rem;
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+}
+
+.status-pending {
+    background-color: rgba(255, 193, 7, 0.15);
+    color: #997404;
+}
+
+.status-confirmed {
+    background-color: rgba(13, 202, 240, 0.15);
+    color: #087990;
+}
+
+.status-completed {
+    background-color: rgba(25, 135, 84, 0.15);
+    color: #0f5132;
+}
+
+.status-cancelled {
+    background-color: rgba(220, 53, 69, 0.15);
+    color: #842029;
+}
+
+/* Avatar Styles */
+.avatar {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.avatar-lg {
+    width: 80px;
+    height: 80px;
+}
+
+.avatar-sm {
+    width: 32px;
+    height: 32px;
+}
+
+.avatar img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.avatar-online::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: var(--success);
+    border: 2px solid white;
+}
+
+/* Message List */
+.message-list {
+    max-height: 360px;
+    overflow-y: auto;
+}
+
+.message-item {
+    padding: 0.75rem 1rem;
+    border-bottom: 1px solid rgba(0,0,0,0.05);
+    transition: background-color 0.2s;
+}
+
+.message-item:hover {
+    background-color: #f8f9fa;
+}
+
+.message-item:last-child {
+    border-bottom: none;
+}
+
+.message-item.unread {
+    background-color: rgba(29, 91, 194, 0.05);
+}
+
+.unread-badge {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: var(--primary);
+    display: inline-block;
+    margin-right: 5px;
+}
+
+/* Reviews */
+.review-card {
+    border-radius: 0.75rem;
+    overflow: hidden;
+}
+
+.rating {
+    color: var(--warning);
+}
+
+/* Dashboard Header */
+.dashboard-header {
+    background-color: var(--primary);
+    background-image: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
+    padding: 2rem 0;
+    color: white;
+    position: relative;
+}
+
+.dashboard-welcome-card {
+    border-radius: 1rem;
+    margin-top: -3rem;
+    background-color: white;
+    position: relative;
+    z-index: 10;
+    box-shadow: 0 0.25rem 1rem rgba(0, 0, 0, 0.1);
+}
+
+/* Quick Action Cards */
+.action-card {
+    border-radius: 0.75rem;
+    text-align: center;
+    padding: 1.5rem;
+    transition: all 0.3s;
+    border: none;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+    height: 100%;
+}
+
+.action-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+}
+
+.action-icon {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin: 0 auto 1rem;
+    font-size: 1.75rem;
+}
+
+/* Media Queries */
+@media (max-width: 991.98px) {
+    .sidebar {
+        margin-left: -280px;
+    }
+    
+    .sidebar.active {
+        margin-left: 0;
+    }
+    
+    .main-content {
+        margin-left: 0;
+        width: 100%;
+    }
+    
+    #sidebarCollapse {
+        display: block;
+    }
+    
+    .dashboard-header {
+        padding: 1.5rem 0;
+    }
+    
+    .dashboard-welcome-card {
+        margin-top: 1rem;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .stat-card {
+        margin-bottom: 1rem;
+    }
+    
+    .action-card {
+        margin-bottom: 1rem;
+    }
+    
+    .dashboard-card {
+        margin-bottom: 1rem;
+    }
+}
+
+/* Animations */
+@keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+.fade-in {
+    animation: fadeIn 0.5s ease-in-out;
+}

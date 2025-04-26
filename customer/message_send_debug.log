@@ -1,0 +1,39 @@
+2025-04-18 20:02:21 - Request: Array
+(
+    [booking_id] => 58
+    [provider_id] => 35
+    [message] => لل
+    [csrf_token] => 1b17cb480df83a5d71e8607c8196657917eb0ee9335141ade6cc0ca246126154
+)
+
+2025-04-18 20:02:21 - User ID: 70
+2025-04-18 20:02:21 - DB Connection successful
+2025-04-18 20:02:21 - Booking check passed
+2025-04-18 20:02:21 - Provider User ID: 73
+2025-04-18 20:02:21 - Message inserted successfully
+2025-04-19 18:39:09 - Request: Array
+(
+    [booking_id] => 64
+    [provider_id] => 36
+    [message] => welcome
+    [csrf_token] => bbd65be15c1aeb3e95ed1208392783117d562cb101e17e83fc4f0326a7c75c77
+)
+
+2025-04-19 18:39:09 - User ID: 74
+2025-04-19 18:39:09 - DB Connection successful
+2025-04-19 18:39:09 - Booking check passed
+2025-04-19 18:39:09 - Provider User ID: 75
+2025-04-19 18:39:09 - Message inserted successfully
+2025-04-26 20:16:19 - Request: Array
+(
+    [booking_id] => 61
+    [provider_id] => 36
+    [message] => fff
+    [csrf_token] => d59c9f31823ac4d10cbf5702825ecd3f7c9102ffc97138f7a1f16a02502a87e2
+)
+
+2025-04-26 20:16:19 - User ID: 74
+2025-04-26 20:16:19 - DB Connection successful
+2025-04-26 20:16:19 - Booking check passed
+2025-04-26 20:16:19 - Provider User ID: 75
+2025-04-26 20:16:19 - Message inserted successfully

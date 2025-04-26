@@ -1,0 +1,48 @@
+=== بدء التشخيص في 2025-04-03 17:50:16 ===
+جاري محاولة الاتصال بقاعدة البيانات...
+تم العثور على ملف الاتصال: conn.php
+تم الاتصال بقاعدة البيانات بنجاح
+هيكل جدول providers:
+  id | int
+  user_id | int
+  specialties | varchar(255)
+  experience | varchar(10)
+  hourly_rate | decimal(10,2)
+  bio | text
+  location | varchar(100)
+  availability | text
+  is_verified | tinyint(1)
+  created_at | timestamp
+  updated_at | timestamp
+  response_time | varchar(50)
+  education | text
+عدد المزودين النشطين والمعتمدين: 1
+نتائج استعلام التخصصات:
+  المزود ID: 29 | اسم المستخدم: sss | التخصصات: smartphone,tv
+التخصصات المستخرجة بعد المعالجة: smartphone, tv
+تم إغلاق الاتصال بقاعدة البيانات
+=== انتهاء التشخيص ===
+=== بدء التشخيص في 2025-04-03 17:50:19 ===
+جاري محاولة الاتصال بقاعدة البيانات...
+تم العثور على ملف الاتصال: conn.php
+تم الاتصال بقاعدة البيانات بنجاح
+هيكل جدول providers:
+  id | int
+  user_id | int
+  specialties | varchar(255)
+  experience | varchar(10)
+  hourly_rate | decimal(10,2)
+  bio | text
+  location | varchar(100)
+  availability | text
+  is_verified | tinyint(1)
+  created_at | timestamp
+  updated_at | timestamp
+  response_time | varchar(50)
+  education | text
+عدد المزودين النشطين والمعتمدين: 1
+نتائج استعلام التخصصات:
+  المزود ID: 29 | اسم المستخدم: sss | التخصصات: smartphone,tv
+التخصصات المستخرجة بعد المعالجة: smartphone, tv
+تم إغلاق الاتصال بقاعدة البيانات
+=== انتهاء التشخيص ===
